@@ -9,20 +9,20 @@ body {
 
 #main {
     text-align: center;
-    top: 3cm;
+    top: 5vh;
     font-weight: bold;
     font-size: 1.5cm;
     color: black;
     font-style: italic;
-    height: 300px;
-    width: 900px;
+    height: 60vh;
+    width: 90vw;
     position: relative;
     background-color:lightpink;
     padding: 0 auto;
     margin: 0 auto;
-    z-index: 4;
+    
     box-shadow: 8px 10px #888888;
-    display: ;
+    max-width: auto;
 
 }
 
@@ -31,13 +31,14 @@ body {
 #header {
     z-index: 6;
     background-color: black;
-    height: 3cm;
+    height: 20vh;
     border-bottom: 0;
     padding-bottom: 0;
     color: white;
     text-align: center;
     font-size: 2cm;
     font-weight: bold;
+    width: 100%;
     
 }
 #container {
@@ -46,6 +47,7 @@ body {
     top: 0px;
     border-top: 50px solid black;
     opacity: 0.9;
-    border-bottom: 20px solid black;
+    border-bottom: 2vh solid black;
+    width: 100%;
     
 }
